@@ -1,4 +1,5 @@
 const getStdin = require('get-stdin');
+const vm = require('vm');
 
 function callback (err, res) {
   console.log('CALLBACK');
